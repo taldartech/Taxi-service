@@ -32,6 +32,18 @@
     Main CSS
 ==================================================== */
 
+@keyframes zoomAndVibrate {
+    0% { transform: scale(1) translateX(0); }
+    25% { transform: scale(1.3) translateX(1px); }
+    50% { transform: scale(1) translateX(0); }
+    75% { transform: scale(1.3) translateX(-1px); }
+    100% { transform: scale(1) translateX(0); }
+}
+
+.ph-tint {
+    animation: zoomAndVibrate 5s ease infinite;
+}
+
 /*=== 1.0 About Section ===*/
 .about-section .section-heading h2 {
     font-size: 36px;
