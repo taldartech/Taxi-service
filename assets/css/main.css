@@ -1499,10 +1499,16 @@
     background-position: bottom right;
     background-size: contain;
     width: 100%;
-    height: 100%;
+    /* height: 100%;
     position: absolute;
     right: 130px;
     bottom: -30px;
+    z-index: -1; */
+
+    height: 115%;
+    position: absolute;
+    right: 200px;
+    bottom: -64px;
     z-index: -1;
 }
 
@@ -1620,11 +1626,17 @@
 }
 
 .cta-section-2 .cta-men {
-    background-size: 95%;
+    /* background-size: 95%;
     right: 90px;
     bottom: 0;
     width: 500px;
-    height: 420px;
+    height: 420px; */
+
+    background-size: 95%;
+    right: 100px;
+    bottom: -59px;
+    width: 597px;
+    height: 437px;
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
