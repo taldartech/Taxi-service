@@ -114,6 +114,9 @@
         margin-bottom: 420px;
     margin-top: 15px;
     }
+    .about-img-new {
+        margin-bottom: 2em;
+    }
     .about-img:before {
         right: 75px;
         bottom: -35px;
