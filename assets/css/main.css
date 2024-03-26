@@ -32,6 +32,32 @@
     Main CSS
 ==================================================== */
 
+.whatsapp-icon {
+    position: fixed;
+    bottom: 18px;
+    left: 25px;
+    font-size: 32px;
+    z-index: 9999;
+    animation: whatsapp 1.5s infinite alternate, restart 20s infinite;
+    transition: transform 0.1s;
+  }
+  
+  @keyframes whatsapp {
+    0%, 100% { transform: translateY(0); }
+    25% { transform: translateY(-45px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-15px); }
+  }
+
+  @keyframes restart {
+    0%, 100% { animation-name: whatsapp; }
+    50% { animation-name: none; }
+  }
+  
+  .whatsapp-icon:hover {
+    transform: scale(1.2);
+  }
+
 .logo-up a h2 {
     color: #ff9900; 
     font-size: 1.2em; 
@@ -940,8 +966,8 @@
 }
 
 .pricing-head-wrap:before {
-    background-image: url(../img/pricing-bg.jpg);
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 40%);
+    background-image: url(../images/pricing-bg.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 0 52%);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -956,7 +982,7 @@
 
 .pricing-head-wrap:after {
     background-color: rgba(34, 34, 34, 0.5);
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 40%);
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 0 52%);
     content: '';
     width: 100%;
     height: 280px;
@@ -1495,13 +1521,13 @@
     margin-left: 40px;
 }
 
-.Taldar Taxi Services-features li {
+.Taldar Taxi Service-features li {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.Taldar Taxi Services-features li:not(:last-of-type) {
+.Taldar Taxi Service-features li:not(:last-of-type) {
     margin-bottom: 30px;
 }
 

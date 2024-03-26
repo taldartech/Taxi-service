@@ -1,7 +1,7 @@
 /*
 *
 * Contact JS
-* @Taldar Taxi Services
+* @Taldar Taxi Service
 */
 $(function() {
     // Get the form.
