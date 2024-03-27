@@ -79,6 +79,15 @@
     text-wrap: nowrap;
 }
 
+.next-icon {
+    font-weight: 900;
+    font-size: 3em;
+    background-color: #ff9900;
+    border-radius: 40px;
+    padding: 5px;
+    /* color: white; */
+}
+
 @keyframes zoomAndVibrate {
     0% { transform: scale(1) translateX(0); }
     25% { transform: scale(1.3) translateX(1px); }
@@ -1074,7 +1083,8 @@
 .pricing-tab-menu li .nav-link {
     font-size: 17px;
     font-weight: 500;
-    color: #999;
+    /* color: #999; */
+    color: white;
     padding: 0;
 }
 
@@ -1088,12 +1098,13 @@
 }
 
 .pricing-tab-menu li:not(:last-of-type):before {
-    background-color: #ccc;
-    width: 50px;
+    /* background-color: #ccc; */
+    background-color: #ff9900;
+    width: 60px;
     height: 2px;
     content: '';
     position: absolute;
-    right: 15px;
+    right: 11px;
     top: 50%;
     transform: translateY(-50%);
 }
