@@ -60,7 +60,7 @@
 
 .logo-up a h2 {
     color: #ff9900; 
-    font-size: 1.2em; 
+    font-size: 20px; 
     margin-bottom: -35px;
     margin-top: -11px;
     margin-left: 11px;
@@ -68,9 +68,15 @@
 
 .logo-down a h2 {
     color: #ff9900; 
-    font-size: 1.2em;
+    font-size: 20px;
     margin-top: -11px;
     margin-left: 11px;
+    text-wrap: nowrap;
+}
+
+.footer-logo {
+    font-size: 24px;
+    text-wrap: nowrap;
 }
 
 @keyframes zoomAndVibrate {
