@@ -801,7 +801,7 @@ button {
 
 .page-header-shape:after {
     background-color: #222;
-    background-image: url(../img/texture.webp);
+    background-image: url(../img/texture.png);
     background-repeat: repeat;
     background-size: cover;
     clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
