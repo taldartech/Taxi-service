@@ -186,7 +186,7 @@
 }
 
 .round-text:before {
-    background-image: url(../img/location-marker.png);
+    background-image: url(../img/location-marker.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 30%;
@@ -400,7 +400,7 @@
 }
 
 .bg-half {
-    background-image: url(../images/slider-bg3.jpg);
+    background-image: url(../images/slider-bg3.webp);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -753,7 +753,7 @@
 
 /*=== 3.0 Booking Section ===*/
 .booking-section {
-    background-image: url(../img/texture.png);
+    background-image: url(../img/texture.webp);
     background-repeat: repeat;
     background-size: cover;
     background-color: #222;
@@ -785,7 +785,7 @@
 
 /*=== 3.1 Booking Car ===*/
 .booking-car {
-    background-image: url(../img/car-2.png);
+    background-image: url(../img/car-2.webp);
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 85%;
@@ -913,7 +913,7 @@
 .booking-form-2:before {
     background-color: #222;
     clip-path: polygon(0 0, 90% 0%, 100% 20%, 100% 100%, 0 99%);
-    background-image: url(../img/texture.png);
+    background-image: url(../img/texture.webp);
     background-repeat: repeat;
     background-size: cover;
     content: "";
@@ -981,7 +981,7 @@
 }
 
 .pricing-head-wrap:before {
-    background-image: url(../images/pricing-bg.jpg);
+    background-image: url(../images/pricing-bg.webp);
     clip-path: polygon(0 0, 100% 0, 100% 82%, 0 52%);
     background-repeat: no-repeat;
     background-position: center center;
@@ -1154,7 +1154,7 @@
 
 .taxi-details-img .price {
     background-color: #222;
-    background-image: url(../img/texture.png);
+    background-image: url(../img/texture.webp);
     background-repeat: repeat;
     background-size: cover;
     clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
@@ -1250,7 +1250,7 @@
     transform: translateY(-3px);
 }
 .taxi-holder {
-    background-image: url(../img/taxi-background.png);
+    background-image: url(../img/taxi-background.webp);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: contain;
@@ -1263,7 +1263,7 @@
 }
 
 .taxi-holder .taxi {
-    background-image: url(../img/taxi.png);
+    background-image: url(../img/taxi.webp);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: contain;
@@ -1275,7 +1275,7 @@
 }
 
 .taxi-holder .mockup {
-    background-image: url(../img/mockup.png);
+    background-image: url(../img/mockup.webp);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: contain;
@@ -1288,7 +1288,7 @@
 }
 
 .taxi-holder .charecter {
-    background-image: url(../img/charecter.png);
+    background-image: url(../img/charecter.webp);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: contain;
@@ -1371,7 +1371,7 @@
 
 /*=== 6.1 Download Section 2 ===*/
 .download-section-2 {
-    background-image: url(../img/bg-1.jpg);
+    background-image: url(../img/bg-1.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1391,7 +1391,7 @@
 }
 
 .download-mockup {
-    background-image: url(../img/mockup-2.png);
+    background-image: url(../img/mockup-2.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1566,7 +1566,7 @@
 
 /*=== 8.0 CTA Section ===*/
 .cta-section {
-    /* background-image: url(../img/texture.png); */
+    /* background-image: url(../img/texture.webp); */
     background-image: url(../img/cta-map.png);
     clip-path: polygon(0 0, 100% 0, 100% 50%, 80% 100%, 0 100%);
     background-repeat: repeat;
@@ -1788,7 +1788,7 @@
 
 .team-content h4 {
     background-color: #222;
-    background-image: url(../img/texture.png);
+    background-image: url(../img/texture.webp);
     background-repeat: repeat;
     background-size: cover;
     clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0% 70%, 0 0);
@@ -1997,7 +1997,7 @@
 
 .contact-section .contact-details li i {
     background-color: #222;
-    background-image: url(../img/texture.png);
+    background-image: url(../img/texture.webp);
     background-repeat: repeat;
     background-size: cover;
     color: #ff9900;
@@ -2148,7 +2148,7 @@ textarea:-ms-input-placeholder {
 .footer-top .brand:before,
 .footer-top .brand:after {
     background-color: #222;
-    background-image: url(../img/texture.png);
+    background-image: url(../img/texture.webp);
     background-repeat: repeat;
     background-size: cover;
     content: "";
@@ -2215,7 +2215,7 @@ textarea:-ms-input-placeholder {
 /*=== 13.1 Mid Footer ===*/
 .footer-mid-wrap {
     background-color: #222;
-    background-image: url(../img/texture.png);
+    background-image: url(../img/texture.webp);
     background-repeat: repeat;
     background-size: cover;
     padding: 80px 0 140px 0;
@@ -2224,7 +2224,7 @@ textarea:-ms-input-placeholder {
 }
 
 .footer-mid-wrap:before {
-    /* background-image: url(../img/city-skiline.png); */
+    /* background-image: url(../img/city-skiline.webp); */
     background-size: 100%;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -2249,7 +2249,7 @@ textarea:-ms-input-placeholder {
 }
 
 .running-taxi .taxi {
-    background-image: url(../img/truck-1.png);
+    background-image: url(../img/truck-1.webp);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: contain;
@@ -2262,7 +2262,7 @@ textarea:-ms-input-placeholder {
 }
 
 .running-taxi .taxi-2 {
-    background-image: url(../img/truck-2.png);
+    background-image: url(../img/truck-2.webp);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: contain;
@@ -2275,7 +2275,7 @@ textarea:-ms-input-placeholder {
 }
 
 .running-taxi .taxi-3 {
-    background-image: url(../img/truck-3.png);
+    background-image: url(../img/truck-3.webp);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: contain;
@@ -2432,7 +2432,7 @@ textarea:-ms-input-placeholder {
 /*=== 13.3 Copyright Section ===*/
 .copyright-wrap {
     background-color: #222;
-    background-image: url(../img/texture.png);
+    background-image: url(../img/texture.webp);
     background-repeat: repeat;
     background-size: cover;
     border-top: 1px solid #333;
