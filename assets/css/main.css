@@ -1037,6 +1037,14 @@
     z-index: 1;
 }
 
+.pricing-bus {
+    text-align: center;
+    /* padding: 60px 25px 20px; */
+    position: relative;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+
 .pricing-car .price {
     background-color: #ff9900;
     clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
